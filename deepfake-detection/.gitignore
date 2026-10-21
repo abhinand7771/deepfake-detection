@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.DS_Store
+*.log
+
+# Large generated artifacts
+models/*.pth
+models/*.pt
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.csv
+outputs/*.json
+outputs/*.mp4
+outputs/*.zip
+
+# Dataset content
+dataset/**
+!dataset/README.md
+!dataset/real/
+!dataset/fake/
+
+# Local files
+.env
+.env.*
